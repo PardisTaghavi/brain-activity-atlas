@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Brain Activity Atlas, please cite this software."
+title: "Brain Activity Atlas"
+type: software
+authors:
+  - family-names: "Taghavi"
+    given-names: "Pardis"
+repository-code: "https://github.com/PardisTaghavi/brain-activity-atlas"
+url: "https://pardistaghavi.github.io/brain-activity-atlas/"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-27
+abstract: "An interactive, research-informed 3D atlas of brain regions implicated in common cognitive, sensory, motor, emotional, and pain-related activities."
+keywords:
+  - neuroscience
+  - neuroimaging
+  - fMRI
+  - brain atlas
+  - data visualization
