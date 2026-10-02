@@ -11,8 +11,38 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Brain Activity Atlas</title>
-  <meta name="description" content="Explore research-informed brain networks associated with common activities.">
+  <title>Interactive 3D Brain Atlas | Brain Activity Atlas</title>
+  <meta name="description" content="Explore an interactive 3D brain atlas showing research-informed brain regions involved in memory, math, language, movement, senses, emotion, and pain.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#090b0f">
+  <link rel="canonical" href="https://pardistaghavi.github.io/brain-activity-atlas/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Brain Activity Atlas">
+  <meta property="og:title" content="Interactive 3D Brain Atlas">
+  <meta property="og:description" content="Explore research-informed brain regions involved in memory, math, language, movement, senses, emotion, and pain.">
+  <meta property="og:url" content="https://pardistaghavi.github.io/brain-activity-atlas/">
+  <meta property="og:image" content="https://pardistaghavi.github.io/brain-activity-atlas/brain-activity-atlas.jpg">
+  <meta property="og:image:alt" content="Interactive Brain Activity Atlas showing colored regions on a 3D brain">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Interactive 3D Brain Atlas">
+  <meta name="twitter:description" content="Explore research-informed brain regions involved in common cognitive, sensory, and motor activities.">
+  <meta name="twitter:image" content="https://pardistaghavi.github.io/brain-activity-atlas/brain-activity-atlas.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Brain Activity Atlas",
+    "alternateName": "Interactive 3D Brain Atlas",
+    "url": "https://pardistaghavi.github.io/brain-activity-atlas/",
+    "description": "An interactive educational 3D atlas of research-informed brain networks associated with memory, mathematics, language, movement, sensation, emotion, and pain.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Any modern web browser",
+    "isAccessibleForFree": true,
+    "image": "https://pardistaghavi.github.io/brain-activity-atlas/brain-activity-atlas.jpg",
+    "license": "https://github.com/PardisTaghavi/brain-activity-atlas/blob/main/LICENSE",
+    "codeRepository": "https://github.com/PardisTaghavi/brain-activity-atlas"
+  }
+  </script>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230d1117'/%3E%3Cpath d='M31 13c-8-6-18 1-15 10-7 4-5 15 2 17-2 9 8 14 14 7 6 7 16 2 14-7 8-2 9-13 2-17 3-9-7-16-15-10z' fill='none' stroke='%23f3b562' stroke-width='4'/%3E%3Cpath d='M32 15v33M20 25c6-1 9 3 12 7M45 24c-6 0-9 4-13 8M20 39c5 1 8-2 12-6M44 39c-5 1-8-2-12-6' stroke='%23f3b562' stroke-width='2' fill='none'/%3E%3C/svg%3E">
   <script src="assets/three.min.js"></script><script src="assets/DRACOLoader.legacy.js"></script><script src="assets/GLTFLoader.legacy.js"></script><script src="assets/OrbitControls.legacy.js"></script>
   <style>
@@ -44,7 +74,7 @@
       <div id="map-key" class="scale">Color identifies anatomy—not activation strength.</div>
     </section>
     <aside>
-      <div class="aside-head"><h1>What are you doing?</h1><input id="search" class="search" type="search" placeholder="Search activities" aria-label="Search activities"><label class="compare-wrap"><span>Compare with</span><select id="compare" class="compare-select" aria-label="Compare selected activity with another activity"></select></label></div>
+      <div class="aside-head"><h1>Explore the 3D brain atlas</h1><input id="search" class="search" type="search" placeholder="Search activities" aria-label="Search activities"><label class="compare-wrap"><span>Compare with</span><select id="compare" class="compare-select" aria-label="Compare selected activity with another activity"></select></label></div>
       <div id="list" class="activity-list"></div>
       <section id="detail" class="detail" aria-live="polite"></section>
     </aside>

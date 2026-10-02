@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://pardistaghavi.github.io/brain-activity-atlas/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <image:image>
+      <image:loc>https://pardistaghavi.github.io/brain-activity-atlas/brain-activity-atlas.jpg</image:loc>
+      <image:title>Interactive 3D Brain Activity Atlas</image:title>
+      <image:caption>Research-informed brain regions associated with common cognitive, sensory, and motor activities.</image:caption>
+    </image:image>
+  </url>
+</urlset>
